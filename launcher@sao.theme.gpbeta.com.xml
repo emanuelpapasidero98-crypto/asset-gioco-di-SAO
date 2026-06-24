@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+    <map name="settings">
+        <value name="icon">{"normal":"nvg://sao.theme.gpbeta.com/icon/main#setting.png","hovered":"nvg://sao.theme.gpbeta.com/icon/main#setting-hovered.png"}</value>
+        <value name="infoPanel">true</value>
+    </map>
+    <map name="settings.exit">
+        <value name="icon">{"normal":"nvg://sao.theme.gpbeta.com/icon/item#logout.png","hovered":"nvg://sao.theme.gpbeta.com/icon/item#logout-hovered.png"}</value>
+    </map>
+    <map name="root"/>
+    <map name="settings.option">
+        <value name="icon">{"normal":"nvg://sao.theme.gpbeta.com/icon/item#option.png","hovered":"nvg://sao.theme.gpbeta.com/icon/item#option-hovered.png"}</value>
+    </map>
+    <map name="settings.help">
+        <value name="icon">{"normal":"nvg://sao.theme.gpbeta.com/icon/item#help.png","hovered":"nvg://sao.theme.gpbeta.com/icon/item#help-hovered.png"}</value>
+    </map>
+    <map name="user">
+        <value name="icon">{"normal":"nvg://sao.theme.gpbeta.com/icon/main#info.png","hovered":"nvg://sao.theme.gpbeta.com/icon/main#info-hovered.png"}</value>
+        <value name="image">"nvg://sao.theme.gpbeta.com/image/misc#info.png"</value>
+        <value name="infoPanel">true</value>
+    </map>
+    <map name="user.items">
+        <value name="icon">{"normal":"nvg://sao.theme.gpbeta.com/icon/item#items.png","hovered":"nvg://sao.theme.gpbeta.com/icon/item#items-hovered.png"}</value>
+    </map>
+    <map name="user.documents">
+        <value name="icon">{"normal":"nvg://sao.theme.gpbeta.com/icon/item#Other/favs2.png","hovered":"nvg://sao.theme.gpbeta.com/icon/item#Other/favs2-hovered.png"}</value>
+    </map>
+    <map name="user.music">
+        <value name="icon">{"normal":"nvg://sao.theme.gpbeta.com/icon/item#Media/iTunes.png","hovered":"nvg://sao.theme.gpbeta.com/icon/item#Media/iTunes-hovered.png"}</value>
+    </map>
+    <map name="user.pictures">
+        <value name="icon">{"normal":"nvg://sao.theme.gpbeta.com/icon/item#Media/landskape.png","hovered":"nvg://sao.theme.gpbeta.com/icon/item#Media/landskape-hovered.png"}</value>
+    </map>
+    <map name="user.videos">
+        <value name="icon">{"normal":"nvg://sao.theme.gpbeta.com/icon/item#Media/YT2.png","hovered":"nvg://sao.theme.gpbeta.com/icon/item#Media/YT2-hovered.png"}</value>
+    </map>
+    <map name="user.skills">
+        <value name="icon">{"normal":"nvg://sao.theme.gpbeta.com/icon/item#skills.png","hovered":"nvg://sao.theme.gpbeta.com/icon/item#skills-hovered.png"}</value>
+    </map>
+    <map name="user.explorer">
+        <value name="icon">{"normal":"nvg://sao.theme.gpbeta.com/icon/item#System/windows.png","hovered":"nvg://sao.theme.gpbeta.com/icon/item#System/windows-hovered.png"}</value>
+    </map>
+    <map name="user.notepad">
+        <value name="icon">{"normal":"nvg://sao.theme.gpbeta.com/icon/item#Other/book.png","hovered":"nvg://sao.theme.gpbeta.com/icon/item#Other/book-hovered.png"}</value>
+    </map>
+    <map name="user.calculator">
+        <value name="icon">{"normal":"nvg://sao.theme.gpbeta.com/icon/item#Other/calculator.png","hovered":"nvg://sao.theme.gpbeta.com/icon/item#Other/calculator-hovered.png"}</value>
+    </map>
+    <map name="user.cmd">
+        <value name="icon">{"normal":"nvg://sao.theme.gpbeta.com/icon/item#System/sett-big.png","hovered":"nvg://sao.theme.gpbeta.com/icon/item#System/sett-big-hovered.png"}</value>
+    </map>
+    <map name="user.equipment">
+        <value name="icon">{"normal":"nvg://sao.theme.gpbeta.com/icon/item#equipment.png","hovered":"nvg://sao.theme.gpbeta.com/icon/item#equipment-hovered.png"}</value>
+    </map>
+    <map name="party">
+        <value name="icon">{"normal":"nvg://sao.theme.gpbeta.com/icon/main#party.png","hovered":"nvg://sao.theme.gpbeta.com/icon/main#party-hovered.png"}</value>
+    </map>
+    <map name="message">
+        <value name="icon">{"normal":"nvg://sao.theme.gpbeta.com/icon/main#msg.png","hovered":"nvg://sao.theme.gpbeta.com/icon/main#msg-hovered.png"}</value>
+    </map>
+    <map name="navigation">
+        <value name="icon">{"normal":"nvg://sao.theme.gpbeta.com/icon/main#navi.png","hovered":"nvg://sao.theme.gpbeta.com/icon/main#navi-hovered.png"}</value>
+    </map>
+    <map name="navigation.search">
+        <value name="icon">{"normal":"nvg://sao.theme.gpbeta.com/icon/item#Network/search.png","hovered":"nvg://sao.theme.gpbeta.com/icon/item#Network/search-hovered.png"}</value>
+    </map>
+    <map name="navigation.favorite">
+        <value name="icon">{"normal":"nvg://sao.theme.gpbeta.com/icon/item#Other/Favs1.png","hovered":"nvg://sao.theme.gpbeta.com/icon/item#Other/Favs1-hovered.png"}</value>
+    </map>
+    <map name="navigation.bilibili">
+        <value name="icon">{"normal":"nvg://sao.theme.gpbeta.com/icon/item#Media/WMP.png","hovered":"nvg://sao.theme.gpbeta.com/icon/item#Media/WMP-hovered.png"}</value>
+    </map>
+</map>

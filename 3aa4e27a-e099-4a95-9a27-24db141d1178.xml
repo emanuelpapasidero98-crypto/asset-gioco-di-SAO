@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+    <map name="desktop">
+        <value name="x">100</value>
+        <value name="y">72</value>
+        <value name="z">-100</value>
+        <value name="anchor">0</value>
+        <value name="screen">"\\.\DISPLAY1"</value>
+        <value name="monitor">"33029"</value>
+        <value name="virtualX">100</value>
+        <value name="virtualY">72</value>
+    </map>
+    <map name="launcher">
+        <value name="x">189</value>
+        <value name="y">126</value>
+        <value name="z">100</value>
+        <value name="anchor">2</value>
+    </map>
+    <value name="source">"nvg://hp-bar.widget.gpbeta.com/widget"</value>
+    <value name="scale">1</value>
+    <value name="width">358</value>
+    <value name="height">89</value>
+    <value name="opacity">1</value>
+    <value name="location">3</value>
+    <value name="frame">2</value>
+    <value name="acceptFocus">true</value>
+    <value name="acceptInput">true</value>
+    <map name="data">
+        <map name="main">
+            <value name="label">"Kirito"</value>
+            <value name="data">{"mode":1,"unit":"%","interval":1000,"source":"nvg://system/data#cpu","value":"load"}</value>
+            <value name="icon">{"normal":"nvg://hp-bar.widget.gpbeta.com/icon#SAO.png"}</value>
+        </map>
+        <list name="extra">
+            <map>
+                <value name="label">"Asuna"</value>
+                <value name="data">{"mode":1,"unit":"%","interval":1000,"source":"nvg://system/data#ram","value":"physical"}</value>
+            </map>
+        </list>
+        <value name="style">"nvg://sao.theme.gpbeta.com/hp-bar"</value>
+    </map>
+</map>

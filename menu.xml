@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <menu>
+        <item id="user">
+            <type>100</type>
+            <label>Kael</label>
+            <text>Welcome to Sword Art Online!</text>
+            <icon>{"normal":"nvg://hud.widget.gpbeta.com/icon#Weapon.png"}</icon>
+            <menu>
+                <item id="user.items">
+                    <type>100</type>
+                    <label>Items</label>
+                    <text></text>
+                    <menu>
+                        <item id="user.documents">
+                            <type>1</type>
+                            <label>My Documents</label>
+                            <text></text>
+                            <action>{"options":4,"data":{"command":"::{031E4825-7B94-4dc3-B131-E946B44C8DD5}\\Documents.library-ms","directory":""},"source":"nvg://system/action#cmd"}</action>
+                        </item>
+                        <item id="user.music">
+                            <type>1</type>
+                            <label>My Music</label>
+                            <text></text>
+                            <action>{"options":4,"data":{"command":"::{031E4825-7B94-4dc3-B131-E946B44C8DD5}\\Music.library-ms","directory":""},"source":"nvg://system/action#cmd"}</action>
+                        </item>
+                        <item id="user.pictures">
+                            <type>1</type>
+                            <label>My Pictures</label>
+                            <text></text>
+                            <action>{"options":4,"data":{"command":"::{031E4825-7B94-4dc3-B131-E946B44C8DD5}\\Pictures.library-ms","directory":""},"source":"nvg://system/action#cmd"}</action>
+                        </item>
+                        <item id="user.videos">
+                            <type>1</type>
+                            <label>My Videos</label>
+                            <text></text>
+                            <action>{"options":4,"data":{"command":"::{031E4825-7B94-4dc3-B131-E946B44C8DD5}\\Videos.library-ms","directory":""},"source":"nvg://system/action#cmd"}</action>
+                        </item>
+                    </menu>
+                </item>
+                <item id="user.skills">
+                    <type>100</type>
+                    <label>Skills</label>
+                    <text></text>
+                    <menu>
+                        <item id="user.explorer">
+                            <type>1</type>
+                            <label>Explorer</label>
+                            <text></text>
+                            <action>{"options":4,"data":{"command":"explorer.exe","directory":""},"source":"nvg://system/action#cmd"}</action>
+                        </item>
+                        <item id="user.notepad">
+                            <type>1</type>
+                            <label>Notepad</label>
+                            <text></text>
+                            <action>{"options":4,"data":{"command":"notepad.exe","directory":""},"source":"nvg://system/action#cmd"}</action>
+                        </item>
+                        <item id="user.calculator">
+                            <type>1</type>
+                            <label>Calculator</label>
+                            <text></text>
+                            <action>{"options":4,"data":{"command":"calc.exe","directory":""},"source":"nvg://system/action#cmd"}</action>
+                        </item>
+                        <item id="user.cmd">
+                            <type>1</type>
+                            <label>CMD</label>
+                            <text></text>
+                            <action>{"options":4,"data":{"command":"cmd.exe","directory":""},"source":"nvg://system/action#cmd"}</action>
+                        </item>
+                    </menu>
+                </item>
+                <item id="user.equipment">
+                    <type>100</type>
+                    <label>Equipment</label>
+                    <text></text>
+                    <menu>
+                        <item id="user.events">
+                            <type>1</type>
+                            <label>Events</label>
+                            <text></text>
+                            <action>{"options":4,"data":{"command":"eventvwr.msc","directory":""},"source":"nvg://system/action#cmd"}</action>
+                        </item>
+                        <item id="user.services">
+                            <type>1</type>
+                            <label>Services</label>
+                            <text></text>
+                            <action>{"options":4,"data":{"command":"services.msc","directory":""},"source":"nvg://system/action#cmd"}</action>
+                        </item>
+                        <item id="user.management">
+                            <type>1</type>
+                            <label>Management</label>
+                            <text></text>
+                            <action>{"options":4,"data":{"command":"compmgmt.msc","directory":""},"source":"nvg://system/action#cmd"}</action>
+                        </item>
+                    </menu>
+                </item>
+            </menu>
+        </item>
+        <item id="party">
+            <type>101</type>
+            <label>Party</label>
+            <text></text>
+            <folder>
+                <path>file:///%ProgramData%/Microsoft/Windows/Start Menu/Programs</path>
+                <options>1</options>
+            </folder>
+        </item>
+        <item id="message">
+            <type>101</type>
+            <label>Message</label>
+            <text></text>
+            <folder>
+                <path>file:///%UserProfile%/Desktop</path>
+                <options>3</options>
+            </folder>
+        </item>
+        <item id="navigation">
+            <type>100</type>
+            <label>Navigation</label>
+            <text></text>
+            <menu>
+                <item id="navigation.search">
+                    <type>100</type>
+                    <label>Search</label>
+                    <text></text>
+                    <menu>
+                        <item id="navigation.google">
+                            <type>1</type>
+                            <label>Google</label>
+                            <text></text>
+                            <action>{"data":{"type":2,"url":"http://www.google.com"},"source":"nvg://system/action#open"}</action>
+                        </item>
+                        <item id="navigation.bing">
+                            <type>1</type>
+                            <label>Bing</label>
+                            <text></text>
+                            <action>{"data":{"type":2,"url":"http://bing.com"},"source":"nvg://system/action#open"}</action>
+                        </item>
+                        <item id="navigation.yahoo">
+                            <type>1</type>
+                            <label>Yahoo</label>
+                            <text></text>
+                            <action>{"data":{"type":2,"url":"http://www.yahoo.com/"},"source":"nvg://system/action#open"}</action>
+                        </item>
+                        <item id="navigation.baidu">
+                            <type>1</type>
+                            <label>百度一下</label>
+                            <text></text>
+                            <action>{"data":{"type":2,"url":"http://www.baidu.com"},"source":"nvg://system/action#open"}</action>
+                        </item>
+                    </menu>
+                </item>
+                <item id="navigation.favorite">
+                    <type>100</type>
+                    <label>Favorite</label>
+                    <text></text>
+                    <menu>
+                        <item id="navigation.sao">
+                            <type>1</type>
+                            <label>TV アニメ</label>
+                            <text></text>
+                            <action>{"data":{"type":2,"url":"http://www.swordart-online.net/"},"source":"nvg://system/action#open"}</action>
+                        </item>
+                        <item id="navigation.saop">
+                            <type>1</type>
+                            <label>劇場版 -Progressive-</label>
+                            <text></text>
+                            <action>{"data":{"type":2,"url":"https://sao-p.net/"},"source":"nvg://system/action#open"}</action>
+                        </item>
+                        <item id="navigation.fb">
+                            <type>1</type>
+                            <label>Fatal Bullet</label>
+                            <text></text>
+                            <action>{"data":{"type":2,"url":"http://store.steampowered.com/app/626690/"},"source":"nvg://system/action#open"}</action>
+                        </item>
+                        <item id="navigation.bilibili">
+                            <type>1</type>
+                            <label>哔哩哔哩</label>
+                            <text></text>
+                            <action>{"data":{"type":2,"url":"http://www.bilibili.com"},"source":"nvg://system/action#open"}</action>
+                        </item>
+                    </menu>
+                </item>
+            </menu>
+        </item>
+        <item id="settings">
+            <type>100</type>
+            <label>Settings</label>
+            <text></text>
+            <menu>
+                <item id="settings.option">
+                    <type>1</type>
+                    <label>Option</label>
+                    <text></text>
+                    <action>{"options":4,"data":{"command":"preferences"},"source":"nvg://system/action#misc"}</action>
+                </item>
+                <item id="settings.help">
+                    <type>1</type>
+                    <label>Help</label>
+                    <text></text>
+                </item>
+                <item id="settings.exit">
+                    <type>1</type>
+                    <label></label>
+                    <text></text>
+                </item>
+            </menu>
+        </item>
+    </menu>
+</root>

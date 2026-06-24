@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+    <map name="desktop">
+        <value name="x">623</value>
+        <value name="y">258</value>
+        <value name="z">-100</value>
+    </map>
+    <map name="launcher"/>
+    <value name="source">"nvg://hud.widget.gpbeta.com/widget/adv"</value>
+    <value name="scale">1</value>
+    <value name="width">800</value>
+    <value name="height">570</value>
+    <value name="opacity">1</value>
+    <value name="location">1</value>
+    <value name="frame">0</value>
+    <value name="acceptFocus">true</value>
+    <value name="acceptInput">true</value>
+    <map name="data">
+        <list name="items">
+            <map>
+                <list name="elements">
+                    <map>
+                        <value name="content">"shape"</value>
+                        <value name="alignment">99</value>
+                        <map name="view">
+                            <value name="fillStyle">"#ffeb3b"</value>
+                        </map>
+                    </map>
+                    <map>
+                        <value name="content">"shape"</value>
+                        <value name="alignment">35</value>
+                        <value name="top">0</value>
+                        <value name="z">1</value>
+                        <value name="height">30</value>
+                        <map name="view">
+                            <value name="fillStyle">"#000000"</value>
+                        </map>
+                    </map>
+                    <map>
+                        <value name="content">"shape"</value>
+                        <value name="alignment">67</value>
+                        <value name="top">0</value>
+                        <value name="z">1</value>
+                        <value name="height">30</value>
+                        <map name="view">
+                            <value name="fillStyle">"#000000"</value>
+                        </map>
+                    </map>
+                </list>
+                <value name="alignment">99</value>
+                <value name="z">-1</value>
+            </map>
+            <map>
+                <value name="label">"Shinon"</value>
+                <list name="elements">
+                    <map>
+                        <value name="content">"text"</value>
+                        <value name="alignment">33</value>
+                        <value name="vertical">-216</value>
+                        <value name="horizon">-126</value>
+                        <map name="view">
+                            <value name="font">{"family":"Source Han Sans SC","pixelSize":32,"bold":true}</value>
+                            <value name="text">"READ ME"</value>
+                        </map>
+                    </map>
+                    <map>
+                        <value name="content">"text"</value>
+                        <value name="alignment">33</value>
+                        <value name="top">50</value>
+                        <value name="left">0</value>
+                        <value name="height">120</value>
+                        <map name="view">
+                            <value name="text">"&lt;p&gt;SAO Utils is a desktop customization tool, with
+&lt;ul&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;u&gt;Does NOT provide any wallpapers&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;"</value>
+                        </map>
+                        <value name="width">350</value>
+                    </map>
+                    <map>
+                        <value name="content">"image"</value>
+                        <value name="alignment">33</value>
+                        <value name="top">151</value>
+                        <value name="left">1</value>
+                        <value name="right">349</value>
+                        <value name="vertical">1</value>
+                        <value name="horizon">75</value>
+                        <map name="view">
+                            <value name="normal">"nvg://system/assets/readme#tray-menu-en.png"</value>
+                        </map>
+                    </map>
+                    <map>
+                        <value name="content">"text"</value>
+                        <value name="alignment">33</value>
+                        <value name="top">380</value>
+                        <value name="left">0</value>
+                        <value name="vertical">139</value>
+                        <value name="horizon">-200</value>
+                        <value name="width">350</value>
+                        <map name="view">
+                            <value name="text">"&lt;p&gt;Via the taskbar tray icon, you can
+&lt;ul&gt;
+&lt;li&gt;Configure Steam tracking in&lt;/li&gt;
+&lt;li&gt;Open&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;"</value>
+                        </map>
+                    </map>
+                    <map>
+                        <value name="content">"image"</value>
+                        <value name="alignment">33</value>
+                        <value name="vertical">-100</value>
+                        <value name="horizon">186</value>
+                        <map name="view">
+                            <value name="normal">"nvg://system/assets/readme#widget-menu-en.png"</value>
+                        </map>
+                        <value name="top">10</value>
+                        <value name="left">400</value>
+                    </map>
+                    <map>
+                        <value name="content">"text"</value>
+                        <value name="alignment">33</value>
+                        <value name="top">220</value>
+                        <value name="left">400</value>
+                        <value name="height">120</value>
+                        <map name="view">
+                            <value name="text">"&lt;ul&gt;
+&lt;li&gt;&lt;u&gt;Right Click&lt;/u&gt; on a widget to show the menu&lt;/li&gt;
+&lt;li&gt;Drag &lt;u&gt;Widget Frame&lt;/u&gt; to resize a widget&lt;/li&gt;
+&lt;/ul&gt;"</value>
+                        </map>
+                        <value name="width">350</value>
+                    </map>
+                    <map>
+                        <value name="content">"text"</value>
+                        <value name="alignment">33</value>
+                        <value name="top">310</value>
+                        <value name="left">480</value>
+                        <map name="view">
+                            <value name="text">"Want more detailed tutorial?
+See this blinking icon?
+That's exactly the User Manual."</value>
+                        </map>
+                        <value name="width">270</value>
+                    </map>
+                    <map>
+                        <value name="content">"image"</value>
+                        <value name="alignment">33</value>
+                        <value name="top">312</value>
+                        <value name="left">400</value>
+                        <value name="vertical">89</value>
+                        <value name="horizon">352</value>
+                        <map name="view">
+                            <value name="normal">"nvg://system/assets/readme#navi-icon.png"</value>
+                        </map>
+                    </map>
+                    <map>
+                        <value name="content">"text"</value>
+                        <value name="alignment">33</value>
+                        <value name="top">445</value>
+                        <value name="left">400</value>
+                        <map name="view">
+                            <value name="text">"Good Luck
+Cyber GPBeta"</value>
+                            <value name="hAlign">1</value>
+                        </map>
+                        <value name="width">351</value>
+                    </map>
+                    <map>
+                        <value name="content">"text"</value>
+                        <value name="alignment">33</value>
+                        <value name="top">390</value>
+                        <value name="left">400</value>
+                        <map name="view">
+                            <value name="text">"As you can see the reviews, most people didn't bother take a look, but complained that they couldn't quit :("</value>
+                        </map>
+                        <value name="width">350</value>
+                        <value name="vertical">166</value>
+                        <value name="horizon">161</value>
+                    </map>
+                </list>
+                <value name="vertical">0</value>
+                <value name="horizon">0</value>
+                <value name="width">750</value>
+                <value name="height">500</value>
+            </map>
+            <map>
+                <value name="label">"▶ Video Tutorial"</value>
+                <list name="elements">
+                    <map>
+                        <value name="content">"shape"</value>
+                        <value name="alignment">99</value>
+                        <map name="view">
+                            <value name="fillStyle">"#000000"</value>
+                            <value name="fillStyleH">"#ffc107"</value>
+                        </map>
+                    </map>
+                    <map>
+                        <value name="content">"text"</value>
+                        <value name="alignment">99</value>
+                        <map name="view">
+                            <value name="color">"#ffeb3b"</value>
+                            <value name="hAlign">2</value>
+                            <value name="vAlign">2</value>
+                            <value name="hoveredColor">"#000000"</value>
+                        </map>
+                    </map>
+                </list>
+                <value name="vertical">-220</value>
+                <value name="horizon">-160</value>
+                <value name="width">135</value>
+                <value name="height">26</value>
+                <value name="action">{"data":{"option":32,"type":2,"url":"https://www.youtube.com/watch?v=82yPo7IMMAk"},"source":"nvg://system/action#open"}</value>
+            </map>
+            <map>
+                <value name="label">"Launcher Menu"</value>
+                <list name="elements">
+                    <map>
+                        <value name="content">"shape"</value>
+                        <value name="alignment">99</value>
+                        <map name="view">
+                            <value name="fillStyle">"#000000"</value>
+                            <value name="fillStyleH">"#ffc107"</value>
+                        </map>
+                    </map>
+                    <map>
+                        <value name="content">"text"</value>
+                        <value name="alignment">99</value>
+                        <map name="view">
+                            <value name="color">"#ffeb3b"</value>
+                            <value name="hAlign">2</value>
+                            <value name="vAlign">2</value>
+                            <value name="hoveredColor">"#000000"</value>
+                        </map>
+                    </map>
+                </list>
+                <value name="vertical">-163</value>
+                <value name="horizon">-268</value>
+                <value name="width">135</value>
+                <value name="height">20</value>
+                <value name="action">{"data":{"command":"toggle-launcher"},"source":"nvg://system/action#misc"}</value>
+            </map>
+            <map>
+                <value name="label">"Desktop Widgets"</value>
+                <list name="elements">
+                    <map>
+                        <value name="content">"shape"</value>
+                        <value name="alignment">99</value>
+                        <map name="view">
+                            <value name="fillStyle">"#000000"</value>
+                            <value name="fillStyleH">"#ffc107"</value>
+                        </map>
+                    </map>
+                    <map>
+                        <value name="content">"text"</value>
+                        <value name="alignment">99</value>
+                        <map name="view">
+                            <value name="color">"#ffeb3b"</value>
+                            <value name="hAlign">2</value>
+                            <value name="vAlign">2</value>
+                            <value name="hoveredColor">"#000000"</value>
+                        </map>
+                    </map>
+                </list>
+                <value name="vertical">-140</value>
+                <value name="horizon">-268</value>
+                <value name="width">135</value>
+                <value name="height">20</value>
+                <value name="action">{"data":{"command":"manage-widgets"},"source":"nvg://system/action#misc"}</value>
+            </map>
+            <map>
+                <value name="label">"Preferences"</value>
+                <list name="elements">
+                    <map>
+                        <value name="content">"shape"</value>
+                        <value name="alignment">99</value>
+                        <map name="view">
+                            <value name="fillStyle">"#000000"</value>
+                            <value name="fillStyleH">"#ffc107"</value>
+                        </map>
+                    </map>
+                    <map>
+                        <value name="content">"text"</value>
+                        <value name="alignment">99</value>
+                        <map name="view">
+                            <value name="color">"#ffeb3b"</value>
+                            <value name="hAlign">2</value>
+                            <value name="vAlign">2</value>
+                            <value name="hoveredColor">"#000000"</value>
+                        </map>
+                    </map>
+                </list>
+                <value name="vertical">165</value>
+                <value name="horizon">-88</value>
+                <value name="width">105</value>
+                <value name="height">20</value>
+                <value name="action">{"data":{"command":"preferences"},"source":"nvg://system/action#misc"}</value>
+            </map>
+            <map>
+                <value name="label">"Workshop"</value>
+                <list name="elements">
+                    <map>
+                        <value name="content">"shape"</value>
+                        <value name="alignment">99</value>
+                        <map name="view">
+                            <value name="fillStyle">"#000000"</value>
+                            <value name="fillStyleH">"#ffc107"</value>
+                        </map>
+                    </map>
+                    <map>
+                        <value name="content">"text"</value>
+                        <value name="alignment">99</value>
+                        <map name="view">
+                            <value name="color">"#ffeb3b"</value>
+                            <value name="hAlign">2</value>
+                            <value name="vAlign">2</value>
+                            <value name="hoveredColor">"#000000"</value>
+                        </map>
+                    </map>
+                </list>
+                <value name="vertical">188</value>
+                <value name="horizon">-250</value>
+                <value name="width">90</value>
+                <value name="height">20</value>
+                <value name="action">{"data":{"command":"open-workshop"},"source":"nvg://system/action#misc"}</value>
+            </map>
+            <map>
+                <value name="label">"Exit SAO Utils"</value>
+                <list name="elements">
+                    <map>
+                        <value name="content">"shape"</value>
+                        <value name="alignment">99</value>
+                        <map name="view">
+                            <value name="fillStyle">"#000000"</value>
+                            <value name="fillStyleH">"#ffc107"</value>
+                        </map>
+                    </map>
+                    <map>
+                        <value name="content">"text"</value>
+                        <value name="alignment">99</value>
+                        <map name="view">
+                            <value name="color">"#ffeb3b"</value>
+                            <value name="hAlign">2</value>
+                            <value name="vAlign">2</value>
+                            <value name="hoveredColor">"#000000"</value>
+                        </map>
+                    </map>
+                </list>
+                <value name="vertical">211</value>
+                <value name="horizon">-273</value>
+                <value name="width">125</value>
+                <value name="height">20</value>
+                <value name="action">{"data":{"command":"exit"},"source":"nvg://system/action#misc"}</value>
+            </map>
+        </list>
+        <map name="craft"/>
+        <map name="defaults">
+            <value name="font">{"family":"Source Han Sans SC","pixelSize":15,"bold":false}</value>
+            <value name="background">{"normal":"nvg://hud.widget.gpbeta.com/background#Transparent.9.png"}</value>
+            <value name="foreground">"#000000"</value>
+        </map>
+    </map>
+</map>

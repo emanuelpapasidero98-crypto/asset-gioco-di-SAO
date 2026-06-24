@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+    <map name="desktop">
+        <value name="x">128</value>
+        <value name="y">200</value>
+        <value name="z">-100</value>
+        <value name="anchor">0</value>
+        <value name="screen">"\\.\DISPLAY1"</value>
+        <value name="monitor">"33029"</value>
+        <value name="virtualX">128</value>
+        <value name="virtualY">200</value>
+    </map>
+    <map name="launcher"/>
+    <value name="source">"nvg://menu.widget.gpbeta.com/widget"</value>
+    <value name="scale">1</value>
+    <value name="width">56</value>
+    <value name="height">56</value>
+    <value name="opacity">1</value>
+    <value name="location">1</value>
+    <value name="frame">2</value>
+    <value name="acceptFocus">true</value>
+    <value name="acceptInput">true</value>
+    <map name="data">
+        <value name="icon">{"normal":"nvg://sao.theme.gpbeta.com/icon/misc#mail.png","hovered":"nvg://sao.theme.gpbeta.com/icon/misc#mail-hovered.png","pressed":"nvg://sao.theme.gpbeta.com/icon/misc#mail-pressed.png"}</value>
+        <list name="items">
+            <map>
+                <value name="icon">{"normal":"nvg://sao.theme.gpbeta.com/icon/item#modify.png","hovered":"nvg://sao.theme.gpbeta.com/icon/item#modify-hovered.png"}</value>
+                <value name="label">"撰写邮件"</value>
+                <value name="action">{"data":{"command":0},"source":"nvg://mail-box.gpbeta.com/action"}</value>
+            </map>
+            <map>
+                <value name="label">"在线玩家"</value>
+                <value name="icon">{"normal":"nvg://sao.theme.gpbeta.com/icon/item#skills.png","hovered":"nvg://sao.theme.gpbeta.com/icon/item#skills-hovered.png"}</value>
+                <value name="action">{"data":{"command":2},"source":"nvg://mail-box.gpbeta.com/action"}</value>
+            </map>
+            <map>
+                <value name="label">"收件箱"</value>
+                <value name="icon">{"normal":"nvg://sao.theme.gpbeta.com/icon/item#items.png","hovered":"nvg://sao.theme.gpbeta.com/icon/item#items-hovered.png"}</value>
+                <value name="action">{"data":{"command":1},"source":"nvg://mail-box.gpbeta.com/action"}</value>
+            </map>
+            <map>
+                <value name="label">"设置"</value>
+                <value name="icon">{"normal":"nvg://sao.theme.gpbeta.com/icon/item#option.png","hovered":"nvg://sao.theme.gpbeta.com/icon/item#option-hovered.png"}</value>
+                <value name="action">{"data":{"command":3},"source":"nvg://mail-box.gpbeta.com/action"}</value>
+            </map>
+        </list>
+        <value name="style">"nvg://sao.theme.gpbeta.com/shortcut-menu"</value>
+    </map>
+</map>

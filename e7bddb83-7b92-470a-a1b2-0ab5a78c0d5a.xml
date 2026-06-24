@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+    <map name="desktop">
+        <value name="x">108</value>
+        <value name="y">300</value>
+        <value name="z">-100</value>
+        <value name="anchor">0</value>
+        <value name="screen">"\\.\DISPLAY1"</value>
+        <value name="monitor">"33029"</value>
+        <value name="virtualX">108</value>
+        <value name="virtualY">300</value>
+    </map>
+    <map name="launcher"/>
+    <value name="source">"nvg://media.gpbeta.com/widget/image"</value>
+    <value name="scale">1</value>
+    <value name="width">96</value>
+    <value name="height">96</value>
+    <value name="opacity">1</value>
+    <value name="location">1</value>
+    <value name="frame">2</value>
+    <value name="acceptFocus">true</value>
+    <value name="acceptInput">true</value>
+    <map name="data"/>
+</map>

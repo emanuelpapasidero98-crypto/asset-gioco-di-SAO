@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+    <map name="desktop">
+        <value name="x">0</value>
+        <value name="y">0</value>
+        <value name="z">-100</value>
+        <value name="anchor">4</value>
+        <value name="screen">"\\.\DISPLAY1"</value>
+        <value name="monitor">"33029"</value>
+        <value name="virtualX">640</value>
+        <value name="virtualY">340</value>
+    </map>
+    <map name="launcher"/>
+    <value name="source">"nvg://web.widget.gpbeta.com/widget"</value>
+    <value name="scale">1</value>
+    <value name="width">640</value>
+    <value name="height">400</value>
+    <value name="opacity">1</value>
+    <value name="location">1</value>
+    <value name="frame">2</value>
+    <value name="acceptFocus">true</value>
+    <value name="acceptInput">true</value>
+    <map name="data">
+        <value name="url">"../Apps/Candy/index.html"</value>
+    </map>
+</map>
