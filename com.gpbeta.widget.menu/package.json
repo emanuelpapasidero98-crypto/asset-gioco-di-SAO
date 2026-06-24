@@ -1,0 +1,42 @@
+{
+    "name": "com.gpbeta.widget.menu",
+    "version": "1.1.0",
+    
+    "title": {
+        "en": "Quick Menu Widget Extension",
+        "zh": "快捷菜单挂件扩展",
+        "zh_TW": "便捷菜單掛件擴展",
+        "ja": "クイックメニューウィジェット拡張機能"
+    },
+
+    "description": {
+        "en": "Allows placing a customizable icon to open a configurable menu on desktop.",
+        "zh": "一个可定制的图标，点击时弹出可配置菜单的简易挂件。",
+        "zh_TW": "一個可定製的圖標，點擊時彈出可配置菜單的簡易掛件。",
+        "ja": "カスタマイズ可能なアイコン、クリックすると設定可能なメニューを表示するシンプルなウィジェット。"
+    },
+
+    "homepage": "http://sao.gpbeta.com",
+    "bugs": { "email": "studiocghibli@gmail.com", "url": "https://nvg.dev/core/sao-utils/issues" },
+    "author": { "name": "Joshua GPBeta", "email": "studiocghibli@gmail.com", "url": "http://www.gpbeta.com" },
+
+    "engines": {
+        "qt.quick": ">=2.12",
+        "nvg.api": "~1"
+    },
+
+    "resources": [
+        {
+            "location": "/widget",
+            "catalog": "widget",
+            "title": {
+                "en": "Quick Menu",
+                "zh": "快捷菜单挂件",
+                "zh_TW": "便捷菜單掛件",
+                "ja": "クイックメニューウィジェット"
+            },
+            "preview": "Images/icon.png",
+            "entry": "qml/MenuWidget.qml"
+        }
+    ]
+}
